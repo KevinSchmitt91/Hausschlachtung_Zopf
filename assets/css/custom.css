@@ -1,0 +1,23 @@
+/* COLOUR REFERENCES
+	
+	PRIMARY-COLOR:			#9a3234
+	SECONDARY-COLOR:		#676767
+	
+*/
+
+/** GENERAL **/
+
+/** PAGE-HEADER **/
+#page-header {
+	height: 150px;
+	color: #9a3234;
+}
+
+#page-header .page-header-img {
+	margin: 10px 10px;
+}
+
+#page-header .page-header-section {
+	display: table-cell;
+	vertical-align: middle;
+}
