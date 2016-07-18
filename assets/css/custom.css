@@ -125,11 +125,12 @@ p {
 	height: 500px;
 	position: relative;
 	background: linear-gradient(
-                     rgba(20,20,20, .3), 
-                     rgba(20,20,20, .3)),
-                     url("http://placehold.it/1920x1080");
+                     rgba(20,20,20, .4), 
+                     rgba(20,20,20, .4)),
+                     url("../img/hero-bg.jpg");
 	background-size: cover;
-	background-position: center center;
+	background-position: center bottom;
+	background-attachment: fixed;
 }
 
 #hero .hero-wrapper {
