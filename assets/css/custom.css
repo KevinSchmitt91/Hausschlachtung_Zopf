@@ -132,7 +132,7 @@ p {
 
 /** HERO **/
 #hero {
-	height: 500px;
+	min-height: 500px;
 	position:inherit;
 	background: linear-gradient(
                      rgba(20,20,20, .4), 
@@ -147,8 +147,9 @@ p {
 #hero .hero-wrapper {
 	text-align: center;
 	display: table;
-	height: 500px;
+	min-height: 500px;
 	width: 100%;
+	padding: 25px 0 25px 0;
 }
 
 #hero .hero-wrapper .hero-content {
@@ -377,6 +378,32 @@ footer a:hover {
 	
 	.navbar-inverse .navbar-toggle:hover {
     	background-color: transparent;
+	}
+	
+	#hero {
+	    min-height: 300px;
+	}
+	
+	#hero .hero-wrapper {
+	    min-height: 300px;
+	}
+	
+	#hero .hero-wrapper .hero-content h5 {
+	    margin: 20px 0px;
+	    font-weight: 400;
+	}
+	
+	#hero .hero-wrapper .hero-content h1{
+	    font-size: 30px;
+	}
+	
+	#hero .hero-wrapper .hero-content h2 {
+		font-size: 26px;
+	}
+	
+	#hero .hero-wrapper .hero-content h5 {
+		font-size: 18px;
+		margin: 0px 10px;
 	}
 	
 }	
